@@ -68,14 +68,13 @@ form p{
   font-size: 13px;
 }
 form p a{
-  text-decoration: none;
   color: #3c00a0;
 }
 .btn-field{
   width: 100%;
   display: flex;
  justify-content: space-between;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 .btn-field button{
   flex-basis:48%;
