@@ -106,9 +106,12 @@ function validateCpass()
 
 function resetValue()
 {
-    window.location.href="../html/signup.html";
-
-
+    let passwordStrength = document.getElementById('passwordStrength');
+    let poor = document.querySelector('#passwordStrength #poor');
+     var strengthbar = document.getElementById("meter");
+    strenthbar.style.display="none";
+   poor.style.display="none";
+}
 
 function handleSubmit() {
 
