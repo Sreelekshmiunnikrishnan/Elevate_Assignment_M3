@@ -104,7 +104,9 @@ function validateCpass()
 }
 */
 
-
+function resetValue()
+{
+    window.location.href="../html/signup.html";
 
 
 
