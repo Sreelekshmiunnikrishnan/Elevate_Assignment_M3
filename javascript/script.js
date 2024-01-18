@@ -104,7 +104,7 @@ function validateCpass()
 }
 */
 
-function resetValue()
+function validateReset()
 {
     let passwordStrength = document.getElementById('passwordStrength');
     let poor = document.querySelector('#passwordStrength #poor');
