@@ -19,7 +19,7 @@
         message.style.display = none;
     }
     else if (!regexPatternname.test(name)) {
-        message.innerHTML = "UserName is InValid. username should start with an alphabet.";
+        message.innerHTML = "UserName is InValid. username should start with an alphabet.No special characters.";
         message.style.display = "block";
         return false;
         message.style.display = none;
@@ -99,8 +99,7 @@ function validateCpass()
     }
 
     else {
-     let poorRegExp =/^(?=.*[a-z])/;
-        return true;
+     return true;
     }
 }
 */
@@ -312,18 +311,18 @@ function checkpassword(password) {
     case 1:
       strengthbar.value = 25;
       poor.style.backgroundColor="red";
-      poor.innerHTML = "Poor Password strength";
+      poor.innerHTML = "Poor Password strength,include uppercase letter.";
       break;
 
     case 2:
       strengthbar.value = 50;
       poor.style.backgroundColor="yellow";
-      poor.innerHTML = "Weak Password strength";
+      poor.innerHTML = "Weak Password strength,include numeral.";
       break;
       case 3:
         strengthbar.value = 75;
         poor.style.backgroundColor="orange";
-      poor.innerHTML = "Medium Password strength";
+      poor.innerHTML = "Medium Password strength,include special symbols.";
         break;
   
       case 4:
